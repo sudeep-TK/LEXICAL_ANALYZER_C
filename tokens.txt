@@ -1,0 +1,36 @@
+====================================================================
+                  LEXICAL ANALYZER - TOKEN REPORT
+====================================================================
+Source File : input.c
+--------------------------------------------------------------------
+No.   Line    Lexeme                         Token Type            
+--------------------------------------------------------------------
+1     1       #include <stdio.h>             Preprocessor          
+2     3       int                            Keyword               
+3     3       main                           Identifier            
+4     3       (                              Delimiter             
+5     3       )                              Delimiter             
+6     4       {                              Delimiter             
+7     5       int                            Keyword               
+8     5       a                              Identifier            
+9     5       =                              Operator              
+10    5       10                             Integer Constant      
+11    5       ;                              Delimiter             
+12    6       float                          Keyword               
+13    6       b                              Identifier            
+14    6       =                              Operator              
+15    6       3.14                           Float Constant        
+16    6       ;                              Delimiter             
+17    8       // Display values              Comment               
+18    9       printf                         Identifier            
+19    9       (                              Delimiter             
+20    9       "Hello World"                  String Literal        
+21    9       )                              Delimiter             
+22    9       ;                              Delimiter             
+23    11      return                         Keyword               
+24    11      0                              Integer Constant      
+25    11      ;                              Delimiter             
+26    12      }                              Delimiter             
+--------------------------------------------------------------------
+Total Tokens: 26
+====================================================================
